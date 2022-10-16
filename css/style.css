@@ -1,0 +1,37 @@
+.Fa{
+    float: left;
+}
+
+.myC{
+    color: blue;
+    font-size: 30px;
+    transition: 1s;
+}
+
+.myC:hover{
+    color: red;
+    font-size: 50px;
+    transform: rotate(70deg);
+
+}
+
+.test{
+    width: 200px;
+    height: 200px;
+    background: blue;
+    float: left;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.test img{
+    object-fit: cover;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.test img:hover{
+   /* transform: rotate(90deg); */
+   /* transform: scale(1.3); */
+transform: skew(20deg);
+}
